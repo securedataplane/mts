@@ -1,0 +1,12 @@
+topology,vswitchMode,isIsolated,tx (Mpps),rx (Mpps)
+phy2phy,SRIOV_NoDPDK_OneOvs,False,14.0,0.92013926
+phy2phy,SRIOV_NoDPDK_TwoOvs,False,14.0,0.80990634
+phy2phy,SRIOV_NoDPDK_FourOvs,False,14.0,0.85578194
+phy2phy,Baseline_NoDPDK,False,14.0,0.84113198
+phy2vm2vm2phy,SRIOV_NoDPDK_OneOvs,False,14.0,0.38620292
+phy2vm2vm2phy,SRIOV_NoDPDK_TwoOvs,False,14.0,0.40895132
+phy2vm2vm2phy,SRIOV_NoDPDK_FourOvs,False,14.0,0.42321258
+phy2vm2vm2phy,Baseline_NoDPDK,False,0.5,0.17548633
+vm2vm,SRIOV_NoDPDK_OneOvs,False,14.0,0.23681860000000002
+vm2vm,SRIOV_NoDPDK_TwoOvs,False,14.0,0.28639513
+vm2vm,Baseline_NoDPDK,False,0.5,0.10154099000000001

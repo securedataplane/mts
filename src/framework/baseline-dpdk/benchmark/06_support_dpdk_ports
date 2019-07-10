@@ -1,0 +1,4 @@
+source ovs.env
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl --no-wait set Open_vSwitch . other_config:dpdk-init=true
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl --no-wait set Open_vSwitch . other_config:vhost-iommu-support=true
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl --no-wait set Open_vSwitch . other_config:dpdk-socket-mem="1024"

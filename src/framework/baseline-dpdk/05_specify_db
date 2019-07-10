@@ -1,0 +1,5 @@
+source ovs.env
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/ovsdb/ovsdb-tool create /usr/local/etc/openvswitch/conf.db /usr/local/src/ovs-dpdk/openvswitch-2.9.0/vswitchd/vswitch.ovsschema
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/ovsdb/ovsdb-server --remote=punix:/usr/local/var/run/openvswitch/db.sock --remote=db:Open_vSwitch,Open_vSwitch,manager_options --pidfile --detach
+# ovsdb-tool create /usr/local/etc/openvswitch/conf.db /usr/local/share/openvswitch/vswitch.ovsschema
+# ovsdb-server --remote=punix:/usr/local/var/run/openvswitch/db.sock --remote=db:Open_vSwitch,Open_vSwitch,manager_options --pidfile --detach

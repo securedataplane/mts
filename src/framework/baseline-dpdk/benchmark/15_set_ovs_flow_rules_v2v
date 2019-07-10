@@ -1,0 +1,14 @@
+source ovs.env
+echo "delete existing flow rules"
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-ofctl del-flows ${BR}
+echo "in traffic"
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-ofctl add-flow ${BR} in_port=${IN},ip,nw_dst=10.0.0.3,action=output:vhost-client-1
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-ofctl add-flow ${BR} in_port=${IN},ip,nw_dst=10.0.0.5,action=output:vhost-client-5
+
+echo "to next vm"
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-ofctl add-flow ${BR} in_port=vhost-client-2,action=output:vhost-client-3
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-ofctl add-flow ${BR} in_port=vhost-client-6,action=output:vhost-client-7
+
+echo "then out"
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-ofctl add-flow ${BR} in_port=vhost-client-3,action=output:${OUT}
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-ofctl add-flow ${BR} in_port=vhost-client-7,action=output:${OUT}

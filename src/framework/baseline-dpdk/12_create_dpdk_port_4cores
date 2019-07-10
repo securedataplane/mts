@@ -1,0 +1,23 @@
+source ovs.env
+#/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl add-port br0 ${IN} -- set Interface ${IN} type=dpdk options:dpdk-devargs=0000:02:00.0,n_rxq_desc=1024,n_txq_desc=1024,n_rxq=1,pmd-rxq-affinity="0" -- set Interface ${IN} mtu_request=2048
+#/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl add-port br0 ${OUT} -- set Interface ${OUT} type=dpdk options:dpdk-devargs=0000:02:00.1,n_rxq_desc=1024,n_txq_desc=1024,n_rxq=1,pmd-rxq-affinity="0" -- set Interface ${OUT} mtu_request=2048
+
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl add-port ${BR} ${IN}
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${IN} type=dpdk options:dpdk-devargs=0000:02:00.0
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${IN} options:n_rxq_desc=1024
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${IN} options:n_txq_desc=1024
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${IN} options:n_rxq=4
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${IN} options:n_txq=4
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${IN} other_config:pmd-rxq-affinity=0:1,1:2,2:3,3:4
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${IN} mtu_request=2048
+
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl add-port ${BR} ${OUT}
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${OUT} type=dpdk options:dpdk-devargs=0000:02:00.1
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${OUT} options:n_rxq_desc=1024
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${OUT} options:n_txq_desc=1024
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${OUT} options:n_rxq=4
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${OUT} options:n_txq=4
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${OUT} other_config:pmd-rxq-affinity=0:1,1:2,2:3,3:4
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl set Interface ${OUT} mtu_request=2048
+
+

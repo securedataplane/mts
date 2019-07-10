@@ -1,0 +1,8 @@
+bash 04_reset_ovs
+bash 05_specify_db
+bash 06_support_dpdk_ports_4cores
+bash 07_start_dpdk_service
+bash 08_09_11_4cores
+bash 12_create_dpdk_port_4cores
+bash 13_create_a_vhost_user_port_v2v_4cores
+bash 15_set_ovs_flow_rules_v2v

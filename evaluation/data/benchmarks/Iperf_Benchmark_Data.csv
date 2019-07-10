@@ -1,0 +1,391 @@
+Timestamp,  S_Transfer (GBytes), S_Bandwidth (Mbits/sec), S_Retr, R_Transfer(GBytes), R_Bandwidth (Mbits/sec), Test Time (s), Tenant,topology ,vswitchMode, DPDK ,Cpu Isolation 
+2018-12-04_11-27-22, 27.4[GBytes], 2355[Mbits/sec],544, 27.4[GBytes], 2355[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-27-22, 27.4[GBytes], 2354[Mbits/sec],1086, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-27-22, 27.4[GBytes], 2355[Mbits/sec],773, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-27-22, 27.4[GBytes], 2354[Mbits/sec],841, 27.4[GBytes], 2354[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-34-04, 27.4[GBytes], 2352[Mbits/sec],922, 27.4[GBytes], 2352[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-34-04, 27.5[GBytes], 2359[Mbits/sec],645, 27.5[GBytes], 2358[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-34-04, 27.5[GBytes], 2359[Mbits/sec],655, 27.5[GBytes], 2359[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-34-03, 27.4[GBytes], 2350[Mbits/sec],1156, 27.4[GBytes], 2350[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-40-45, 27.4[GBytes], 2353[Mbits/sec],750, 27.4[GBytes], 2353[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-40-45, 27.5[GBytes], 2361[Mbits/sec],539, 27.5[GBytes], 2361[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-40-45, 27.4[GBytes], 2354[Mbits/sec],341, 27.4[GBytes], 2353[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-40-45, 27.4[GBytes], 2353[Mbits/sec],888, 27.4[GBytes], 2352[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-47-25, 27.4[GBytes], 2355[Mbits/sec],715, 27.4[GBytes], 2355[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-47-25, 27.4[GBytes], 2354[Mbits/sec],266, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-47-25, 27.4[GBytes], 2354[Mbits/sec],289, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-47-25, 27.4[GBytes], 2354[Mbits/sec],317, 27.4[GBytes], 2354[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-54-06, 27.4[GBytes], 2356[Mbits/sec],298, 27.4[GBytes], 2355[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-54-07, 27.4[GBytes], 2355[Mbits/sec],777, 27.4[GBytes], 2355[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-54-07, 27.4[GBytes], 2354[Mbits/sec],509, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_11-54-07, 27.4[GBytes], 2355[Mbits/sec],482, 27.4[GBytes], 2355[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline ,True ,True
+2018-12-04_13-54-09, 54.9[GBytes], 4712[Mbits/sec],1035, 54.8[GBytes], 4711[Mbits/sec],100,4,VM2VM ,Baseline ,True ,True
+2018-12-04_13-54-09, 54.8[GBytes], 4706[Mbits/sec],782, 54.8[GBytes], 4705[Mbits/sec],100,2,VM2VM ,Baseline ,True ,True
+2018-12-04_14-00-50, 54.8[GBytes], 4711[Mbits/sec],1188, 54.8[GBytes], 4710[Mbits/sec],100,4,VM2VM ,Baseline ,True ,True
+2018-12-04_14-00-50, 54.7[GBytes], 4701[Mbits/sec],948, 54.7[GBytes], 4701[Mbits/sec],100,2,VM2VM ,Baseline ,True ,True
+2018-12-04_14-07-31, 54.9[GBytes], 4716[Mbits/sec],884, 54.9[GBytes], 4716[Mbits/sec],100,4,VM2VM ,Baseline ,True ,True
+2018-12-04_14-07-31, 54.7[GBytes], 4697[Mbits/sec],936, 54.7[GBytes], 4697[Mbits/sec],100,2,VM2VM ,Baseline ,True ,True
+2018-12-04_14-14-11, 54.7[GBytes], 4695[Mbits/sec],953, 54.6[GBytes], 4694[Mbits/sec],100,2,VM2VM ,Baseline ,True ,True
+2018-12-04_14-14-11, 54.9[GBytes], 4720[Mbits/sec],875, 54.9[GBytes], 4719[Mbits/sec],100,4,VM2VM ,Baseline ,True ,True
+2018-12-04_14-20-52, 54.8[GBytes], 4705[Mbits/sec],773, 54.8[GBytes], 4705[Mbits/sec],100,2,VM2VM ,Baseline ,True ,True
+2018-12-04_14-20-52, 54.8[GBytes], 4709[Mbits/sec],774, 54.8[GBytes], 4708[Mbits/sec],100,4,VM2VM ,Baseline ,True ,True
+2018-12-04_16-18-35, 8.43[GBytes], 724[Mbits/sec],74, 8.43[GBytes], 724[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-18-35, 8.54[GBytes], 734[Mbits/sec],72, 8.54[GBytes], 733[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-18-35, 8.52[GBytes], 732[Mbits/sec],89, 8.52[GBytes], 732[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-18-35, 8.73[GBytes], 750[Mbits/sec],67, 8.73[GBytes], 750[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-22-48, 8.54[GBytes], 733[Mbits/sec],36, 8.53[GBytes], 733[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-22-48, 8.55[GBytes], 735[Mbits/sec],103, 8.55[GBytes], 735[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-22-48, 8.71[GBytes], 748[Mbits/sec],107, 8.71[GBytes], 748[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-22-48, 8.42[GBytes], 723[Mbits/sec],69, 8.42[GBytes], 723[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-27-01, 8.59[GBytes], 738[Mbits/sec],70, 8.59[GBytes], 738[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-27-01, 8.60[GBytes], 739[Mbits/sec],106, 8.60[GBytes], 739[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-27-01, 8.46[GBytes], 727[Mbits/sec],68, 8.46[GBytes], 727[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-27-01, 8.76[GBytes], 752[Mbits/sec],69, 8.75[GBytes], 752[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-31-14, 8.59[GBytes], 738[Mbits/sec],70, 8.59[GBytes], 738[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-31-14, 8.46[GBytes], 727[Mbits/sec],60, 8.46[GBytes], 727[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-31-14, 8.74[GBytes], 751[Mbits/sec],71, 8.74[GBytes], 751[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-31-14, 8.58[GBytes], 737[Mbits/sec],76, 8.58[GBytes], 737[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-35-29, 8.59[GBytes], 738[Mbits/sec],86, 8.58[GBytes], 737[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-35-29, 8.47[GBytes], 727[Mbits/sec],73, 8.47[GBytes], 727[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-35-29, 8.61[GBytes], 740[Mbits/sec],80, 8.61[GBytes], 740[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_16-35-29, 8.74[GBytes], 751[Mbits/sec],77, 8.74[GBytes], 751[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline ,False ,True
+2018-12-04_17-36-13, 22.2[GBytes], 1909[Mbits/sec],4141, 22.2[GBytes], 1909[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-36-13, 22.1[GBytes], 1899[Mbits/sec],4603, 22.1[GBytes], 1899[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-36-13, 21.9[GBytes], 1877[Mbits/sec],4250, 21.8[GBytes], 1877[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-36-13, 22.7[GBytes], 1954[Mbits/sec],4306, 22.7[GBytes], 1954[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-40-26, 22.0[GBytes], 1889[Mbits/sec],4619, 22.0[GBytes], 1889[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-40-26, 22.5[GBytes], 1935[Mbits/sec],4320, 22.5[GBytes], 1935[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-40-26, 22.9[GBytes], 1967[Mbits/sec],3947, 22.9[GBytes], 1967[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-40-26, 21.9[GBytes], 1880[Mbits/sec],4449, 21.9[GBytes], 1879[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-44-39, 23.1[GBytes], 1982[Mbits/sec],4163, 23.1[GBytes], 1982[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-44-39, 22.0[GBytes], 1894[Mbits/sec],4315, 22.0[GBytes], 1893[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-44-39, 22.2[GBytes], 1906[Mbits/sec],4255, 22.2[GBytes], 1906[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-44-39, 22.3[GBytes], 1912[Mbits/sec],4384, 22.3[GBytes], 1911[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-48-52, 22.7[GBytes], 1953[Mbits/sec],3906, 22.7[GBytes], 1953[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-48-52, 22.2[GBytes], 1907[Mbits/sec],4348, 22.2[GBytes], 1907[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-48-52, 22.5[GBytes], 1932[Mbits/sec],4032, 22.5[GBytes], 1932[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-48-52, 21.8[GBytes], 1875[Mbits/sec],4473, 21.8[GBytes], 1875[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-53-05, 22.8[GBytes], 1957[Mbits/sec],4168, 22.8[GBytes], 1956[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-53-05, 22.1[GBytes], 1899[Mbits/sec],4558, 22.1[GBytes], 1899[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-53-05, 22.0[GBytes], 1894[Mbits/sec],4596, 22.0[GBytes], 1894[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_17-53-05, 22.5[GBytes], 1931[Mbits/sec],4215, 22.5[GBytes], 1931[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_OneOvs ,False ,True
+2018-12-04_18-54-56, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_18-54-56, 27.4[GBytes], 2353[Mbits/sec],0, 27.4[GBytes], 2353[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_18-54-56, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_18-54-56, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_18-59-09, 27.4[GBytes], 2356[Mbits/sec],107, 27.4[GBytes], 2356[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_18-59-09, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_18-59-09, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_18-59-09, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-03-23, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-03-23, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-03-23, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-03-23, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-07-36, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-07-36, 27.4[GBytes], 2353[Mbits/sec],0, 27.4[GBytes], 2352[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-07-36, 27.4[GBytes], 2356[Mbits/sec],360, 27.4[GBytes], 2356[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-07-36, 27.4[GBytes], 2354[Mbits/sec],69, 27.4[GBytes], 2353[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-11-51, 27.5[GBytes], 2358[Mbits/sec],63, 27.4[GBytes], 2358[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-11-51, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-11-51, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2353[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_19-11-51, 27.4[GBytes], 2353[Mbits/sec],0, 27.4[GBytes], 2353[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,True
+2018-12-04_20-16-26, 27.4[GBytes], 2356[Mbits/sec],0, 27.4[GBytes], 2356[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-16-26, 27.4[GBytes], 2353[Mbits/sec],0, 27.4[GBytes], 2353[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-16-26, 27.4[GBytes], 2353[Mbits/sec],0, 27.4[GBytes], 2353[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-16-26, 27.4[GBytes], 2353[Mbits/sec],0, 27.4[GBytes], 2353[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-20-39, 27.4[GBytes], 2355[Mbits/sec],101, 27.4[GBytes], 2355[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-20-39, 27.4[GBytes], 2353[Mbits/sec],0, 27.4[GBytes], 2353[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-20-39, 27.4[GBytes], 2353[Mbits/sec],0, 27.4[GBytes], 2353[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-20-39, 27.4[GBytes], 2358[Mbits/sec],0, 27.4[GBytes], 2357[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-24-53, 27.4[GBytes], 2352[Mbits/sec],0, 27.4[GBytes], 2352[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-24-53, 27.4[GBytes], 2353[Mbits/sec],0, 27.4[GBytes], 2353[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-24-53, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2355[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-24-53, 27.4[GBytes], 2356[Mbits/sec],0, 27.4[GBytes], 2356[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-29-06, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-29-06, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-29-06, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-29-06, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-33-19, 27.4[GBytes], 2353[Mbits/sec],0, 27.4[GBytes], 2353[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-33-19, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2355[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-33-19, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2353[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-04_20-33-19, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,True
+2018-12-15_19-24-29, 9.67[GBytes], 831[Mbits/sec],0, 9.67[GBytes], 831[Mbits/sec],100,2,VM2VM ,Baseline ,False ,True
+2018-12-15_19-24-29, 9.75[GBytes], 838[Mbits/sec],0, 9.75[GBytes], 837[Mbits/sec],100,4,VM2VM ,Baseline ,False ,True
+2018-12-15_19-28-42, 9.66[GBytes], 829[Mbits/sec],0, 9.65[GBytes], 829[Mbits/sec],100,2,VM2VM ,Baseline ,False ,True
+2018-12-15_19-28-42, 9.76[GBytes], 838[Mbits/sec],0, 9.75[GBytes], 838[Mbits/sec],100,4,VM2VM ,Baseline ,False ,True
+2018-12-15_19-32-56, 9.72[GBytes], 835[Mbits/sec],0, 9.71[GBytes], 834[Mbits/sec],100,2,VM2VM ,Baseline ,False ,True
+2018-12-15_19-32-56, 9.80[GBytes], 842[Mbits/sec],0, 9.79[GBytes], 841[Mbits/sec],100,4,VM2VM ,Baseline ,False ,True
+2018-12-15_19-37-09, 9.80[GBytes], 842[Mbits/sec],0, 9.80[GBytes], 842[Mbits/sec],100,4,VM2VM ,Baseline ,False ,True
+2018-12-15_19-37-09, 9.68[GBytes], 832[Mbits/sec],0, 9.68[GBytes], 832[Mbits/sec],100,2,VM2VM ,Baseline ,False ,True
+2018-12-15_19-41-22, 9.72[GBytes], 835[Mbits/sec],0, 9.72[GBytes], 835[Mbits/sec],100,2,VM2VM ,Baseline ,False ,True
+2018-12-15_19-41-22, 9.80[GBytes], 842[Mbits/sec],0, 9.80[GBytes], 842[Mbits/sec],100,4,VM2VM ,Baseline ,False ,True
+2018-12-04_22-48-32, 23.4[GBytes], 2009[Mbits/sec],2534, 23.4[GBytes], 2009[Mbits/sec],100,4,VM2VM ,SRIOV_OneOvs ,False ,True
+2018-12-04_22-48-32, 24.3[GBytes], 2083[Mbits/sec],1022, 24.3[GBytes], 2083[Mbits/sec],100,2,VM2VM ,SRIOV_OneOvs ,False ,True
+2018-12-04_22-52-45, 23.9[GBytes], 2050[Mbits/sec],1106, 23.9[GBytes], 2050[Mbits/sec],100,2,VM2VM ,SRIOV_OneOvs ,False ,True
+2018-12-04_22-52-45, 23.7[GBytes], 2040[Mbits/sec],1914, 23.7[GBytes], 2040[Mbits/sec],100,4,VM2VM ,SRIOV_OneOvs ,False ,True
+2018-12-04_22-56-58, 23.3[GBytes], 1998[Mbits/sec],1265, 23.3[GBytes], 1998[Mbits/sec],100,2,VM2VM ,SRIOV_OneOvs ,False ,True
+2018-12-04_22-56-58, 24.2[GBytes], 2076[Mbits/sec],2001, 24.2[GBytes], 2076[Mbits/sec],100,4,VM2VM ,SRIOV_OneOvs ,False ,True
+2018-12-04_23-01-11, 24.5[GBytes], 2107[Mbits/sec],1092, 24.5[GBytes], 2107[Mbits/sec],100,2,VM2VM ,SRIOV_OneOvs ,False ,True
+2018-12-04_23-01-11, 23.1[GBytes], 1982[Mbits/sec],2539, 23.1[GBytes], 1982[Mbits/sec],100,4,VM2VM ,SRIOV_OneOvs ,False ,True
+2018-12-04_23-05-25, 23.3[GBytes], 1997[Mbits/sec],1813, 23.2[GBytes], 1997[Mbits/sec],100,4,VM2VM ,SRIOV_OneOvs ,False ,True
+2018-12-04_23-05-25, 24.3[GBytes], 2086[Mbits/sec],1465, 24.3[GBytes], 2086[Mbits/sec],100,2,VM2VM ,SRIOV_OneOvs ,False ,True
+2018-12-05_00-05-48, 48.0[GBytes], 4125[Mbits/sec],7855, 48.0[GBytes], 4124[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,False ,True
+2018-12-05_00-05-48, 48.3[GBytes], 4147[Mbits/sec],6918, 48.3[GBytes], 4147[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,False ,True
+2018-12-05_00-10-01, 48.4[GBytes], 4161[Mbits/sec],6326, 48.4[GBytes], 4161[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,False ,True
+2018-12-05_00-10-01, 47.9[GBytes], 4117[Mbits/sec],8174, 47.9[GBytes], 4117[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,False ,True
+2018-12-05_00-14-14, 48.4[GBytes], 4161[Mbits/sec],7334, 48.4[GBytes], 4161[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,False ,True
+2018-12-05_00-14-14, 48.0[GBytes], 4124[Mbits/sec],7855, 48.0[GBytes], 4124[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,False ,True
+2018-12-05_00-18-27, 48.3[GBytes], 4148[Mbits/sec],6523, 48.3[GBytes], 4148[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,False ,True
+2018-12-05_00-18-27, 48.2[GBytes], 4141[Mbits/sec],6839, 48.2[GBytes], 4141[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,False ,True
+2018-12-05_00-22-39, 48.2[GBytes], 4143[Mbits/sec],6528, 48.2[GBytes], 4143[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,False ,True
+2018-12-05_00-22-39, 48.4[GBytes], 4155[Mbits/sec],6614, 48.4[GBytes], 4154[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,False ,True
+2018-12-05_01-24-40, 21.9[GBytes], 1882[Mbits/sec],1180, 21.9[GBytes], 1882[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-24-40, 21.9[GBytes], 1884[Mbits/sec],1211, 21.9[GBytes], 1884[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-24-40, 23.3[GBytes], 1998[Mbits/sec],1142, 23.3[GBytes], 1998[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-24-40, 22.9[GBytes], 1966[Mbits/sec],1228, 22.9[GBytes], 1966[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-28-53, 21.1[GBytes], 1816[Mbits/sec],1310, 21.1[GBytes], 1816[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-28-53, 23.9[GBytes], 2054[Mbits/sec],1099, 23.9[GBytes], 2054[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-28-53, 21.9[GBytes], 1878[Mbits/sec],1072, 21.9[GBytes], 1878[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-28-53, 23.4[GBytes], 2007[Mbits/sec],1140, 23.4[GBytes], 2007[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-33-06, 22.1[GBytes], 1901[Mbits/sec],1200, 22.1[GBytes], 1901[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-33-06, 21.6[GBytes], 1857[Mbits/sec],1196, 21.6[GBytes], 1857[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-33-06, 23.5[GBytes], 2020[Mbits/sec],1204, 23.5[GBytes], 2020[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-33-06, 23.0[GBytes], 1974[Mbits/sec],1021, 23.0[GBytes], 1974[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-37-20, 22.5[GBytes], 1931[Mbits/sec],1205, 22.5[GBytes], 1931[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-37-20, 22.0[GBytes], 1888[Mbits/sec],1000, 22.0[GBytes], 1887[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-37-20, 22.8[GBytes], 1957[Mbits/sec],1219, 22.8[GBytes], 1957[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-37-20, 22.8[GBytes], 1955[Mbits/sec],1095, 22.8[GBytes], 1955[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-41-33, 22.6[GBytes], 1943[Mbits/sec],1662, 22.6[GBytes], 1943[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-41-33, 21.9[GBytes], 1880[Mbits/sec],1262, 21.9[GBytes], 1879[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-41-33, 23.1[GBytes], 1986[Mbits/sec],1063, 23.1[GBytes], 1985[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_01-41-33, 22.4[GBytes], 1921[Mbits/sec],1242, 22.4[GBytes], 1920[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,False ,False
+2018-12-05_02-46-16, 23.4[GBytes], 2008[Mbits/sec],407, 23.4[GBytes], 2008[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-46-16, 23.4[GBytes], 2011[Mbits/sec],513, 23.4[GBytes], 2011[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-46-16, 23.6[GBytes], 2028[Mbits/sec],416, 23.6[GBytes], 2028[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-46-16, 23.6[GBytes], 2030[Mbits/sec],395, 23.6[GBytes], 2029[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-50-29, 23.5[GBytes], 2018[Mbits/sec],384, 23.5[GBytes], 2018[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-50-29, 23.7[GBytes], 2040[Mbits/sec],320, 23.7[GBytes], 2039[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-50-29, 23.4[GBytes], 2012[Mbits/sec],515, 23.4[GBytes], 2012[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-50-29, 23.5[GBytes], 2018[Mbits/sec],542, 23.5[GBytes], 2017[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-54-42, 23.6[GBytes], 2027[Mbits/sec],418, 23.6[GBytes], 2027[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-54-42, 23.7[GBytes], 2040[Mbits/sec],397, 23.7[GBytes], 2040[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-54-42, 23.4[GBytes], 2013[Mbits/sec],409, 23.4[GBytes], 2012[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-54-42, 23.2[GBytes], 1997[Mbits/sec],366, 23.2[GBytes], 1997[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-58-57, 23.9[GBytes], 2055[Mbits/sec],384, 23.9[GBytes], 2055[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-58-57, 23.4[GBytes], 2010[Mbits/sec],424, 23.4[GBytes], 2010[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-58-57, 23.4[GBytes], 2007[Mbits/sec],395, 23.4[GBytes], 2007[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_02-58-57, 23.4[GBytes], 2006[Mbits/sec],439, 23.3[GBytes], 2006[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_03-03-09, 23.4[GBytes], 2010[Mbits/sec],354, 23.4[GBytes], 2010[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_03-03-09, 23.4[GBytes], 2009[Mbits/sec],426, 23.4[GBytes], 2009[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_03-03-09, 23.5[GBytes], 2019[Mbits/sec],330, 23.5[GBytes], 2019[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_03-03-09, 23.5[GBytes], 2023[Mbits/sec],423, 23.5[GBytes], 2023[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,False ,False
+2018-12-05_04-05-32, 25.0[GBytes], 2151[Mbits/sec],2197, 25.0[GBytes], 2151[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,False ,False
+2018-12-05_04-05-32, 24.7[GBytes], 2123[Mbits/sec],1383, 24.7[GBytes], 2123[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,False ,False
+2018-12-05_04-09-45, 25.2[GBytes], 2165[Mbits/sec],1888, 25.2[GBytes], 2164[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,False ,False
+2018-12-05_04-09-45, 24.6[GBytes], 2115[Mbits/sec],1021, 24.6[GBytes], 2115[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,False ,False
+2018-12-05_04-13-58, 24.8[GBytes], 2127[Mbits/sec],1543, 24.8[GBytes], 2127[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,False ,False
+2018-12-05_04-13-58, 25.2[GBytes], 2162[Mbits/sec],2776, 25.2[GBytes], 2162[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,False ,False
+2018-12-05_04-18-11, 24.7[GBytes], 2123[Mbits/sec],304, 24.7[GBytes], 2123[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,False ,False
+2018-12-05_04-18-11, 25.2[GBytes], 2165[Mbits/sec],2748, 25.2[GBytes], 2165[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,False ,False
+2018-12-05_04-22-23, 25.2[GBytes], 2161[Mbits/sec],4734, 25.2[GBytes], 2161[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,False ,False
+2018-12-05_04-22-23, 24.7[GBytes], 2120[Mbits/sec],1100, 24.7[GBytes], 2120[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,False ,False
+2018-12-05_05-23-38, 27.0[GBytes], 2322[Mbits/sec],618, 27.0[GBytes], 2321[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-23-38, 27.1[GBytes], 2327[Mbits/sec],498, 27.1[GBytes], 2326[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-23-38, 27.1[GBytes], 2325[Mbits/sec],682, 27.1[GBytes], 2325[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-23-38, 28.4[GBytes], 2443[Mbits/sec],342, 28.4[GBytes], 2443[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-27-51, 27.2[GBytes], 2339[Mbits/sec],363, 27.2[GBytes], 2339[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-27-51, 27.3[GBytes], 2346[Mbits/sec],306, 27.3[GBytes], 2346[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-27-51, 27.8[GBytes], 2390[Mbits/sec],68, 27.8[GBytes], 2390[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-27-51, 27.3[GBytes], 2341[Mbits/sec],115, 27.3[GBytes], 2341[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-32-04, 27.4[GBytes], 2356[Mbits/sec],297, 27.4[GBytes], 2356[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-32-04, 27.4[GBytes], 2350[Mbits/sec],396, 27.4[GBytes], 2350[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-32-04, 27.4[GBytes], 2356[Mbits/sec],397, 27.4[GBytes], 2355[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-32-04, 27.4[GBytes], 2354[Mbits/sec],327, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-36-17, 27.2[GBytes], 2337[Mbits/sec],381, 27.2[GBytes], 2337[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-36-17, 28.0[GBytes], 2407[Mbits/sec],228, 28.0[GBytes], 2407[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-36-17, 27.2[GBytes], 2336[Mbits/sec],344, 27.2[GBytes], 2336[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-36-17, 27.2[GBytes], 2337[Mbits/sec],230, 27.2[GBytes], 2336[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-40-30, 27.4[GBytes], 2354[Mbits/sec],264, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-40-30, 27.4[GBytes], 2354[Mbits/sec],294, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-40-30, 27.4[GBytes], 2356[Mbits/sec],467, 27.4[GBytes], 2356[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_05-40-30, 27.4[GBytes], 2352[Mbits/sec],178, 27.4[GBytes], 2352[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_OneOvs ,True ,True
+2018-12-05_06-39-48, 27.4[GBytes], 2353[Mbits/sec],11, 27.4[GBytes], 2352[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-39-48, 27.4[GBytes], 2353[Mbits/sec],1141, 27.4[GBytes], 2353[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-39-48, 27.4[GBytes], 2356[Mbits/sec],1012, 27.4[GBytes], 2355[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-39-48, 27.4[GBytes], 2354[Mbits/sec],6, 27.4[GBytes], 2353[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-44-01, 27.4[GBytes], 2356[Mbits/sec],54, 27.4[GBytes], 2356[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-44-01, 27.4[GBytes], 2354[Mbits/sec],28, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-44-01, 27.4[GBytes], 2354[Mbits/sec],23, 27.4[GBytes], 2353[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-44-01, 27.4[GBytes], 2354[Mbits/sec],77, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-48-15, 27.4[GBytes], 2350[Mbits/sec],44, 27.4[GBytes], 2350[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-48-15, 27.4[GBytes], 2357[Mbits/sec],21, 27.4[GBytes], 2357[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-48-15, 27.4[GBytes], 2358[Mbits/sec],232, 27.4[GBytes], 2357[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-48-15, 27.4[GBytes], 2353[Mbits/sec],33, 27.4[GBytes], 2353[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-52-28, 27.4[GBytes], 2355[Mbits/sec],64, 27.4[GBytes], 2355[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-52-28, 27.4[GBytes], 2355[Mbits/sec],1, 27.4[GBytes], 2355[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-52-28, 27.4[GBytes], 2353[Mbits/sec],53, 27.4[GBytes], 2352[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-52-28, 27.4[GBytes], 2354[Mbits/sec],47, 27.4[GBytes], 2353[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-56-41, 27.4[GBytes], 2357[Mbits/sec],5, 27.4[GBytes], 2356[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-56-41, 27.4[GBytes], 2352[Mbits/sec],40, 27.4[GBytes], 2352[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-56-41, 27.4[GBytes], 2354[Mbits/sec],7, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_06-56-41, 27.4[GBytes], 2355[Mbits/sec],12, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_TwoOvs ,True ,True
+2018-12-05_08-03-28, 27.4[GBytes], 2356[Mbits/sec],4, 27.4[GBytes], 2355[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-03-28, 27.4[GBytes], 2354[Mbits/sec],20, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-03-28, 27.4[GBytes], 2353[Mbits/sec],9, 27.4[GBytes], 2353[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-03-28, 27.4[GBytes], 2353[Mbits/sec],10, 27.4[GBytes], 2352[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-07-41, 27.4[GBytes], 2355[Mbits/sec],3, 27.4[GBytes], 2355[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-07-41, 27.4[GBytes], 2352[Mbits/sec],41, 27.4[GBytes], 2352[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-07-41, 27.4[GBytes], 2354[Mbits/sec],17, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-07-41, 27.4[GBytes], 2355[Mbits/sec],9, 27.4[GBytes], 2355[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-11-55, 27.4[GBytes], 2354[Mbits/sec],231, 27.4[GBytes], 2353[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-11-55, 27.4[GBytes], 2355[Mbits/sec],28, 27.4[GBytes], 2355[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-11-55, 27.4[GBytes], 2353[Mbits/sec],16, 27.4[GBytes], 2352[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-11-55, 27.4[GBytes], 2355[Mbits/sec],22, 27.4[GBytes], 2355[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-16-07, 27.8[GBytes], 2391[Mbits/sec],9, 27.8[GBytes], 2391[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-16-07, 27.3[GBytes], 2344[Mbits/sec],554, 27.3[GBytes], 2344[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-16-07, 27.2[GBytes], 2337[Mbits/sec],57, 27.2[GBytes], 2337[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-16-07, 27.3[GBytes], 2345[Mbits/sec],17, 27.3[GBytes], 2345[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-20-20, 27.4[GBytes], 2356[Mbits/sec],33, 27.4[GBytes], 2356[Mbits/sec],100,1,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-20-20, 27.4[GBytes], 2355[Mbits/sec],12, 27.4[GBytes], 2355[Mbits/sec],100,4,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-20-20, 27.4[GBytes], 2354[Mbits/sec],25, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_08-20-20, 27.4[GBytes], 2353[Mbits/sec],1, 27.4[GBytes], 2353[Mbits/sec],100,3,phy2vm2vm2phy ,SRIOV_FourOvs ,True ,True
+2018-12-05_09-21-44, 49.5[GBytes], 4249[Mbits/sec],5760, 49.5[GBytes], 4249[Mbits/sec],100,2,VM2VM ,SRIOV_OneOvs ,True ,True
+2018-12-05_09-21-44, 49.4[GBytes], 4244[Mbits/sec],4745, 49.4[GBytes], 4244[Mbits/sec],100,4,VM2VM ,SRIOV_OneOvs ,True ,True
+2018-12-05_09-25-57, 49.4[GBytes], 4246[Mbits/sec],3340, 49.4[GBytes], 4246[Mbits/sec],100,2,VM2VM ,SRIOV_OneOvs ,True ,True
+2018-12-05_09-25-57, 49.3[GBytes], 4235[Mbits/sec],4273, 49.3[GBytes], 4235[Mbits/sec],100,4,VM2VM ,SRIOV_OneOvs ,True ,True
+2018-12-05_09-30-10, 49.5[GBytes], 4250[Mbits/sec],6582, 49.5[GBytes], 4250[Mbits/sec],100,4,VM2VM ,SRIOV_OneOvs ,True ,True
+2018-12-05_09-30-10, 49.4[GBytes], 4240[Mbits/sec],3793, 49.4[GBytes], 4240[Mbits/sec],100,2,VM2VM ,SRIOV_OneOvs ,True ,True
+2018-12-05_09-34-23, 49.5[GBytes], 4252[Mbits/sec],3225, 49.5[GBytes], 4252[Mbits/sec],100,4,VM2VM ,SRIOV_OneOvs ,True ,True
+2018-12-05_09-34-23, 49.3[GBytes], 4237[Mbits/sec],2828, 49.3[GBytes], 4237[Mbits/sec],100,2,VM2VM ,SRIOV_OneOvs ,True ,True
+2018-12-05_09-38-36, 49.4[GBytes], 4242[Mbits/sec],3490, 49.4[GBytes], 4242[Mbits/sec],100,2,VM2VM ,SRIOV_OneOvs ,True ,True
+2018-12-05_09-38-36, 49.2[GBytes], 4230[Mbits/sec],3798, 49.2[GBytes], 4230[Mbits/sec],100,4,VM2VM ,SRIOV_OneOvs ,True ,True
+2018-12-06_01-46-55, 49.5[GBytes], 4252[Mbits/sec],4659, 49.5[GBytes], 4252[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,True ,True
+2018-12-06_01-46-55, 49.4[GBytes], 4241[Mbits/sec],4078, 49.4[GBytes], 4241[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,True ,True
+2018-12-06_01-53-39, 49.4[GBytes], 4242[Mbits/sec],3016, 49.4[GBytes], 4241[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,True ,True
+2018-12-06_01-53-39, 49.5[GBytes], 4252[Mbits/sec],4556, 49.5[GBytes], 4252[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,True ,True
+2018-12-06_02-00-23, 49.4[GBytes], 4245[Mbits/sec],4257, 49.4[GBytes], 4245[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,True ,True
+2018-12-06_02-00-23, 49.3[GBytes], 4239[Mbits/sec],2507, 49.3[GBytes], 4239[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,True ,True
+2018-12-06_02-07-07, 49.5[GBytes], 4248[Mbits/sec],2770, 49.4[GBytes], 4248[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,True ,True
+2018-12-06_02-07-07, 49.4[GBytes], 4246[Mbits/sec],4619, 49.4[GBytes], 4246[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,True ,True
+2018-12-06_02-13-50, 49.4[GBytes], 4240[Mbits/sec],2792, 49.4[GBytes], 4240[Mbits/sec],100,4,VM2VM ,SRIOV_TwoOvs ,True ,True
+2018-12-06_02-13-50, 49.5[GBytes], 4253[Mbits/sec],5506, 49.5[GBytes], 4253[Mbits/sec],100,2,VM2VM ,SRIOV_TwoOvs ,True ,True
+2019-05-17_11-44-39, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2355[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_11-44-39, 27.4[GBytes], 2354[Mbits/sec],38, 27.4[GBytes], 2354[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_11-44-39, 27.4[GBytes], 2354[Mbits/sec],15, 27.4[GBytes], 2354[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_11-44-39, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_11-51-20, 27.4[GBytes], 2354[Mbits/sec],10, 27.4[GBytes], 2353[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_11-51-20, 27.4[GBytes], 2355[Mbits/sec],196, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_11-51-20, 27.4[GBytes], 2353[Mbits/sec],24, 27.4[GBytes], 2353[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_11-51-20, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2355[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_11-58-01, 27.4[GBytes], 2356[Mbits/sec],41, 27.4[GBytes], 2355[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_11-58-01, 27.4[GBytes], 2356[Mbits/sec],0, 27.4[GBytes], 2356[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_11-58-01, 27.4[GBytes], 2356[Mbits/sec],0, 27.4[GBytes], 2355[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_11-58-01, 27.4[GBytes], 2354[Mbits/sec],379, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_12-04-42, 27.4[GBytes], 2354[Mbits/sec],40, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_12-04-42, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_12-04-42, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2355[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_12-04-42, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_12-11-23, 27.4[GBytes], 2356[Mbits/sec],280, 27.4[GBytes], 2355[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_12-11-23, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2355[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_12-11-23, 27.4[GBytes], 2354[Mbits/sec],0, 27.4[GBytes], 2354[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_12-11-23, 27.4[GBytes], 2353[Mbits/sec],14, 27.4[GBytes], 2353[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_13-37-16, 27.4[GBytes], 2355[Mbits/sec],194, 27.4[GBytes], 2355[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-37-16, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2355[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-37-16, 27.4[GBytes], 2354[Mbits/sec],287, 27.4[GBytes], 2354[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-37-16, 27.4[GBytes], 2354[Mbits/sec],575, 27.4[GBytes], 2353[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-39-57, 27.4[GBytes], 2355[Mbits/sec],220, 27.4[GBytes], 2355[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-39-57, 27.4[GBytes], 2354[Mbits/sec],256, 27.4[GBytes], 2354[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-39-57, 27.4[GBytes], 2354[Mbits/sec],404, 27.4[GBytes], 2353[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-39-57, 27.4[GBytes], 2354[Mbits/sec],207, 27.4[GBytes], 2354[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-42-38, 26.9[GBytes], 2309[Mbits/sec],265, 26.9[GBytes], 2309[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-42-38, 26.9[GBytes], 2309[Mbits/sec],201, 26.9[GBytes], 2309[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-42-38, 29.0[GBytes], 2489[Mbits/sec],40, 29.0[GBytes], 2489[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-42-38, 26.9[GBytes], 2310[Mbits/sec],0, 26.9[GBytes], 2309[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-45-19, 27.4[GBytes], 2354[Mbits/sec],173, 27.4[GBytes], 2353[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-45-19, 27.4[GBytes], 2353[Mbits/sec],214, 27.4[GBytes], 2353[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-45-19, 27.4[GBytes], 2354[Mbits/sec],222, 27.4[GBytes], 2354[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-45-19, 27.4[GBytes], 2355[Mbits/sec],0, 27.4[GBytes], 2355[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-48-00, 28.9[GBytes], 2484[Mbits/sec],265, 28.9[GBytes], 2484[Mbits/sec],100,1,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-48-00, 26.9[GBytes], 2311[Mbits/sec],70, 26.9[GBytes], 2311[Mbits/sec],100,3,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-48-00, 26.9[GBytes], 2312[Mbits/sec],0, 26.9[GBytes], 2311[Mbits/sec],100,2,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_13-48-00, 26.9[GBytes], 2311[Mbits/sec],0, 26.9[GBytes], 2310[Mbits/sec],100,4,phy2vm2vm2phy ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_15-22-30, 54.8[GBytes], 4707[Mbits/sec],500, 54.8[GBytes], 4707[Mbits/sec],100,4,VM2VM ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_15-22-30, 54.8[GBytes], 4708[Mbits/sec],478, 54.8[GBytes], 4708[Mbits/sec],100,2,VM2VM ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_15-25-11, 54.8[GBytes], 4706[Mbits/sec],382, 54.8[GBytes], 4706[Mbits/sec],100,4,VM2VM ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_15-25-11, 54.8[GBytes], 4709[Mbits/sec],776, 54.8[GBytes], 4709[Mbits/sec],100,2,VM2VM ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_15-27-52, 54.8[GBytes], 4707[Mbits/sec],751, 54.8[GBytes], 4707[Mbits/sec],100,2,VM2VM ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_15-27-52, 54.8[GBytes], 4708[Mbits/sec],744, 54.8[GBytes], 4708[Mbits/sec],100,4,VM2VM ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_15-30-33, 54.8[GBytes], 4707[Mbits/sec],207, 54.8[GBytes], 4707[Mbits/sec],100,2,VM2VM ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_15-30-33, 54.8[GBytes], 4708[Mbits/sec],226, 54.8[GBytes], 4708[Mbits/sec],100,4,VM2VM ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_15-33-13, 54.8[GBytes], 4707[Mbits/sec],344, 54.8[GBytes], 4707[Mbits/sec],100,4,VM2VM ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_15-33-13, 54.8[GBytes], 4707[Mbits/sec],1029, 54.8[GBytes], 4707[Mbits/sec],100,2,VM2VM ,Baseline_DPDK_2Core ,True ,True
+2019-05-17_16-12-40, 54.8[GBytes], 4708[Mbits/sec],303, 54.8[GBytes], 4708[Mbits/sec],100,2,VM2VM ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_16-12-40, 54.8[GBytes], 4707[Mbits/sec],345, 54.8[GBytes], 4707[Mbits/sec],100,4,VM2VM ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_16-15-20, 54.8[GBytes], 4704[Mbits/sec],843, 54.8[GBytes], 4704[Mbits/sec],100,4,VM2VM ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_16-15-20, 54.8[GBytes], 4711[Mbits/sec],474, 54.8[GBytes], 4711[Mbits/sec],100,2,VM2VM ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_16-18-01, 54.9[GBytes], 4720[Mbits/sec],4696, 54.9[GBytes], 4719[Mbits/sec],100,2,VM2VM ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_16-18-01, 54.7[GBytes], 4694[Mbits/sec],6419, 54.6[GBytes], 4694[Mbits/sec],100,4,VM2VM ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_16-20-42, 54.8[GBytes], 4706[Mbits/sec],746, 54.8[GBytes], 4706[Mbits/sec],100,4,VM2VM ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_16-20-42, 54.8[GBytes], 4708[Mbits/sec],652, 54.8[GBytes], 4708[Mbits/sec],100,2,VM2VM ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_16-23-22, 54.3[GBytes], 4665[Mbits/sec],5698, 54.3[GBytes], 4664[Mbits/sec],100,4,VM2VM ,Baseline_DPDK_4Core ,True ,True
+2019-05-17_16-23-22, 55.3[GBytes], 4750[Mbits/sec],690, 55.3[GBytes], 4750[Mbits/sec],100,2,VM2VM ,Baseline_DPDK_4Core ,True ,True
+2019-05-16_11-10-30, 15.3[GBytes], 1313[Mbits/sec], 151, 15.3[GBytes], 1313[Mbits/sec], 100 ,3 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-10-30, 15.0[GBytes], 1287[Mbits/sec], 143, 15.0[GBytes], 1287[Mbits/sec], 100 ,4 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-10-30, 15.2[GBytes], 1302[Mbits/sec], 180, 15.2[GBytes], 1302[Mbits/sec], 100 ,1 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-10-30, 20.8[GBytes], 1790[Mbits/sec], 136, 20.8[GBytes], 1789[Mbits/sec], 100 ,2 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-14-45, 17.2[GBytes], 1474[Mbits/sec], 122, 17.2[GBytes], 1474[Mbits/sec], 100 ,1 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-14-45, 15.7[GBytes], 1350[Mbits/sec], 149, 15.7[GBytes], 1350[Mbits/sec], 100 ,2 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-14-45, 17.3[GBytes], 1484[Mbits/sec], 299, 17.3[GBytes], 1484[Mbits/sec], 100 ,4 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-14-45, 16.9[GBytes], 1448[Mbits/sec], 275, 16.9[GBytes], 1448[Mbits/sec], 100 ,3 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-18-59, 12.1[GBytes], 1042[Mbits/sec], 91, 12.1[GBytes], 1042[Mbits/sec], 100 ,1 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-18-59, 20.1[GBytes], 1727[Mbits/sec], 185, 20.1[GBytes], 1727[Mbits/sec], 100 ,2 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-18-59, 17.7[GBytes], 1519[Mbits/sec], 326, 17.7[GBytes], 1519[Mbits/sec], 100 ,4 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-18-59, 17.2[GBytes], 1482[Mbits/sec], 402, 17.2[GBytes], 1481[Mbits/sec], 100 ,3 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-23-14, 15.5[GBytes], 1336[Mbits/sec], 734, 15.5[GBytes], 1335[Mbits/sec], 100 ,1 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-23-14, 15.9[GBytes], 1363[Mbits/sec], 701, 15.9[GBytes], 1362[Mbits/sec], 100 ,3 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-23-14, 18.4[GBytes], 1577[Mbits/sec], 303, 18.4[GBytes], 1577[Mbits/sec], 100 ,2 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-23-14, 17.3[GBytes], 1485[Mbits/sec], 156, 17.3[GBytes], 1485[Mbits/sec], 100 ,4 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-27-28, 21.0[GBytes], 1804[Mbits/sec], 138, 21.0[GBytes], 1804[Mbits/sec], 100 ,3 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-27-28, 14.4[GBytes], 1236[Mbits/sec], 121, 14.4[GBytes], 1235[Mbits/sec], 100 ,4 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-27-28, 15.3[GBytes], 1314[Mbits/sec], 97, 15.3[GBytes], 1313[Mbits/sec], 100 ,1 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_11-27-28, 15.3[GBytes], 1310[Mbits/sec], 108, 15.2[GBytes], 1310[Mbits/sec], 100 ,2 ,phy2vm2vm2phy ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_12-27-02, 22.1[GBytes], 1902[Mbits/sec], 880, 22.1[GBytes], 1901[Mbits/sec], 100 ,2 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-27-02, 22.8[GBytes], 1958[Mbits/sec], 1009, 22.8[GBytes], 1958[Mbits/sec], 100 ,4 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-27-02, 23.6[GBytes], 2028[Mbits/sec], 681, 23.6[GBytes], 2028[Mbits/sec], 100 ,1 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-27-02, 22.8[GBytes], 1960[Mbits/sec], 953, 22.8[GBytes], 1960[Mbits/sec], 100 ,3 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-31-16, 22.2[GBytes], 1908[Mbits/sec], 828, 22.2[GBytes], 1908[Mbits/sec], 100 ,4 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-31-16, 22.8[GBytes], 1958[Mbits/sec], 746, 22.8[GBytes], 1957[Mbits/sec], 100 ,2 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-31-16, 23.0[GBytes], 1972[Mbits/sec], 1180, 23.0[GBytes], 1972[Mbits/sec], 100 ,1 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-31-16, 23.1[GBytes], 1987[Mbits/sec], 1284, 23.1[GBytes], 1987[Mbits/sec], 100 ,3 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-35-31, 22.6[GBytes], 1945[Mbits/sec], 1105, 22.6[GBytes], 1944[Mbits/sec], 100 ,3 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-35-31, 23.3[GBytes], 2005[Mbits/sec], 869, 23.3[GBytes], 2005[Mbits/sec], 100 ,2 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-35-31, 21.6[GBytes], 1852[Mbits/sec], 944, 21.6[GBytes], 1852[Mbits/sec], 100 ,4 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-35-31, 23.8[GBytes], 2045[Mbits/sec], 564, 23.8[GBytes], 2045[Mbits/sec], 100 ,1 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-39-46, 22.7[GBytes], 1949[Mbits/sec], 1121, 22.7[GBytes], 1948[Mbits/sec], 100 ,3 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-39-46, 23.9[GBytes], 2057[Mbits/sec], 1411, 23.9[GBytes], 2057[Mbits/sec], 100 ,1 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-39-46, 23.5[GBytes], 2022[Mbits/sec], 999, 23.5[GBytes], 2022[Mbits/sec], 100 ,2 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-39-46, 23.8[GBytes], 2048[Mbits/sec], 1320, 23.8[GBytes], 2047[Mbits/sec], 100 ,4 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-44-00, 21.8[GBytes], 1875[Mbits/sec], 564, 21.8[GBytes], 1874[Mbits/sec], 100 ,2 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-44-00, 23.3[GBytes], 1998[Mbits/sec], 1806, 23.3[GBytes], 1998[Mbits/sec], 100 ,3 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-44-00, 23.4[GBytes], 2009[Mbits/sec], 1122, 23.4[GBytes], 2009[Mbits/sec], 100 ,1 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_12-44-00, 24.3[GBytes], 2085[Mbits/sec], 1868, 24.3[GBytes], 2085[Mbits/sec], 100 ,4 ,phy2vm2vm2phy ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_13-41-33, 11.1[GBytes], 956[Mbits/sec], 219, 11.1[GBytes], 956[Mbits/sec], 100 ,4 ,VM2VM ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_13-41-33, 11.1[GBytes], 951[Mbits/sec], 154, 11.1[GBytes], 951[Mbits/sec], 100 ,2 ,VM2VM ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_13-45-48, 11.2[GBytes], 960[Mbits/sec], 146, 11.2[GBytes], 960[Mbits/sec], 100 ,2 ,VM2VM ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_13-45-48, 11.2[GBytes], 962[Mbits/sec], 231, 11.2[GBytes], 961[Mbits/sec], 100 ,4 ,VM2VM ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_13-50-02, 11.3[GBytes], 974[Mbits/sec], 157, 11.3[GBytes], 974[Mbits/sec], 100 ,2 ,VM2VM ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_13-50-02, 11.1[GBytes], 956[Mbits/sec], 335, 11.1[GBytes], 956[Mbits/sec], 100 ,4 ,VM2VM ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_13-54-16, 11.1[GBytes], 951[Mbits/sec], 197, 11.1[GBytes], 951[Mbits/sec], 100 ,2 ,VM2VM ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_13-54-16, 11.3[GBytes], 967[Mbits/sec], 87, 11.3[GBytes], 967[Mbits/sec], 100 ,4 ,VM2VM ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_13-58-31, 11.2[GBytes], 965[Mbits/sec], 182, 11.2[GBytes], 965[Mbits/sec], 100 ,4 ,VM2VM ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_13-58-31, 11.3[GBytes], 970[Mbits/sec], 150, 11.3[GBytes], 970[Mbits/sec], 100 ,2 ,VM2VM ,Baseline_NoDPDK_2Core ,False ,True
+2019-05-16_14-55-55, 11.6[GBytes], 995[Mbits/sec], 14, 11.6[GBytes], 995[Mbits/sec], 100 ,2 ,VM2VM ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_14-55-56, 11.5[GBytes], 991[Mbits/sec], 26, 11.5[GBytes], 991[Mbits/sec], 100 ,4 ,VM2VM ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_15-00-10, 8.96[GBytes], 769[Mbits/sec], 0, 8.95[GBytes], 769[Mbits/sec], 100 ,2 ,VM2VM ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_15-00-10, 11.6[GBytes], 995[Mbits/sec], 0, 11.6[GBytes], 994[Mbits/sec], 100 ,4 ,VM2VM ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_15-04-26, 11.6[GBytes], 999[Mbits/sec], 0, 11.6[GBytes], 999[Mbits/sec], 100 ,4 ,VM2VM ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_15-04-26, 11.7[GBytes], 1001[Mbits/sec], 15, 11.7[GBytes], 1001[Mbits/sec], 100 ,2 ,VM2VM ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_15-08-41, 10.5[GBytes], 900[Mbits/sec], 10, 10.5[GBytes], 900[Mbits/sec], 100 ,2 ,VM2VM ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_15-08-41, 11.6[GBytes], 999[Mbits/sec], 47, 11.6[GBytes], 999[Mbits/sec], 100 ,4 ,VM2VM ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_15-12-54, 11.7[GBytes], 1002[Mbits/sec], 0, 11.7[GBytes], 1002[Mbits/sec], 100 ,2 ,VM2VM ,Baseline_NoDPDK_4Core ,False ,True
+2019-05-16_15-12-54, 11.7[GBytes], 1001[Mbits/sec], 14, 11.7[GBytes], 1001[Mbits/sec], 100 ,4 ,VM2VM ,Baseline_NoDPDK_4Core ,False ,True

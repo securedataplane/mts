@@ -1,0 +1,1 @@
+{"nicTput": 10000, "tenant4": {"tenantTput": 2500, "packetLoss": "False"}, "tenant3": {"tenantTput": 2500, "packetLoss": "False"}, "tenant2": {"tenantTput": 2500, "packetLoss": "False"}, "tenant1": {"tenantTput": 2500, "packetLoss": "False"}}

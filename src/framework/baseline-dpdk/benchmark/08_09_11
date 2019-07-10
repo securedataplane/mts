@@ -1,0 +1,8 @@
+source ovs.env
+
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl --no-wait set Open_vSwitch . other_config:dpdk-socket-mem="1024"
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl --no-wait set Open_vSwitch . other_config:pmd-cpu-mask=0x1
+echo -n "Creating OVS bridge ..."
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl add-br br0 -- set bridge br0 datapath_type=netdev
+echo "done"
+chmod g+w /usr/local/var/run/openvswitch/ -R

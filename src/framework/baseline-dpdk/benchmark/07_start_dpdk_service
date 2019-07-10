@@ -1,0 +1,4 @@
+source ovs.env
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/vswitchd/ovs-vswitchd unix:/usr/local/var/run/openvswitch/db.sock -vconsole:emer -vsyslog:err -vfile:err --mlockall --no-chdir --log-file=/usr/local/var/log/openvswitch/ovs-vswitchd.log --pidfile=/usr/local/var/run/openvswitch/ovs-vswitchd.pid --detach --monitor
+#ovs-ctl --no-ovsdb-server --db-sock="$DB_SOCK" start
+

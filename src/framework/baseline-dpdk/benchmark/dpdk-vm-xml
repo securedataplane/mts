@@ -1,0 +1,5 @@
+    <interface type='vhostuser'>
+      <mac address='00:00:00:00:00:11'/>
+      <source type='unix' path='/usr/local/var/run/openvswitch/vhostuserclient.socket' mode='server'/>
+      <model type='virtio'/>
+    </interface>

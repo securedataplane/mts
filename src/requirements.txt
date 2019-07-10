@@ -1,0 +1,4 @@
+paramiko
+numpy
+matplotlib
+scipy

@@ -1,0 +1,18 @@
+source ovs.env
+BR=${BR:-br0}
+DPDK0_INDEX=$(echo `/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-ofctl show ${BR} | grep ${NETDEV} | cut -d '(' -f 1`)
+VHOST_USER1_INDEX=$(echo `/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-ofctl show ${BR} | grep vhost-client | cut -d '(' -f 1`)
+export DPDK0_INDEX
+export VHOST_USER1_INDEX
+
+#BR=${BR:-br0}
+#DPDK0_INDEX=$(echo `ovs-ofctl show ${BR} | grep dpdk0 | cut -d '(' -f 1`)
+#VHOST_USER1_INDEX=$(echo `ovs-ofctl show ${BR} | grep vhost-client | cut -d '(' -f 1`)
+#export DPDK0_INDEX
+#export VHOST_USER1_INDEX
+
+#BR=br0
+#DPDK0_INDEX=$(echo `/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-ofctl show br0 | grep dpdk0 | cut -d '(' -f 1`)
+#VHOST_USER1_INDEX=$(echo `/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-ofctl show br0 | grep vhost-client | cut -d '(' -f 1`)
+#export DPDK0_INDEX
+#export VHOST_USER1_INDEX

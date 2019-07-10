@@ -1,0 +1,47 @@
+source ovs.env
+
+#vhost user client
+echo "tenant-green-1"
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl add-port ${BR} vhost-client-1 -- \
+	set Interface vhost-client-1 type=dpdkvhostuserclient \
+		options:vhost-server-path=${VHOST_USER_SOCKET_PATH} options:n_rxq=1 -- \
+		set Interface vhost-client-1 mtu_request=2048 -- \
+	set Interface vhost-client-1 other_config:pmd-rxq-affinity=0:1 -- \
+
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl add-port ${BR} vhost-client-2 -- \
+	set Interface vhost-client-2 type=dpdkvhostuserclient \
+		options:vhost-server-path=${VHOST_USER_SOCKET_PATH2} options:n_rxq=1 -- \
+		set Interface vhost-client-2 mtu_request=2048 -- \
+	set Interface vhost-client-2 other_config:pmd-rxq-affinity=0:1 -- \
+
+
+echo "tenant-green-2"
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl add-port ${BR} vhost-client-3 -- \
+	set Interface vhost-client-3 type=dpdkvhostuserclient \
+		options:vhost-server-path=${VHOST_USER_SOCKET_PATH3} options:n_rxq=1 -- \
+		set Interface vhost-client-3 mtu_request=2048 -- \
+	set Interface vhost-client-3 other_config:pmd-rxq-affinity=0:1 -- \
+
+
+echo "tenant-green-3"
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl add-port ${BR} vhost-client-5 -- \
+	set Interface vhost-client-5 type=dpdkvhostuserclient \
+		options:vhost-server-path=${VHOST_USER_SOCKET_PATH5} options:n_rxq=1 -- \
+		set Interface vhost-client-5 mtu_request=2048 -- \
+	set Interface vhost-client-5 other_config:pmd-rxq-affinity=0:2 -- \
+
+
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl add-port ${BR} vhost-client-6 -- \
+	set Interface vhost-client-6 type=dpdkvhostuserclient \
+		options:vhost-server-path=${VHOST_USER_SOCKET_PATH6} options:n_rxq=1 -- \
+		set Interface vhost-client-6 mtu_request=2048 -- \
+	set Interface vhost-client-6 other_config:pmd-rxq-affinity=0:2 -- \
+
+
+echo "tenant-green-4"
+/usr/local/src/ovs-dpdk/openvswitch-2.9.0/utilities/ovs-vsctl add-port ${BR} vhost-client-7 -- \
+	set Interface vhost-client-7 type=dpdkvhostuserclient \
+		options:vhost-server-path=${VHOST_USER_SOCKET_PATH7} options:n_rxq=1 -- \
+		set Interface vhost-client-7 mtu_request=2048 -- \
+	set Interface vhost-client-7 other_config:pmd-rxq-affinity=0:2 -- \
+

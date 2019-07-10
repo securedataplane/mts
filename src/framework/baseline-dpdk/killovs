@@ -1,0 +1,7 @@
+#!/bin/bash -x
+#Gentle kill
+kill -TERM $( cat /usr/local/var/run/openvswitch/ovs-vswitchd.pid)
+kill -TERM $(cat  /usr/local/var/run/openvswitch/ovsdb-server.pid)
+
+killall ovs-vswitchd
+killall ovsdb-server
