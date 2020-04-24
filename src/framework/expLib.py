@@ -930,9 +930,9 @@ def AttachNetInter(cnx_host, cnx_vm, macId):
     ssh.close()    
      
 
-def AttachVf(cnx_host, cnx_vm, vf):
+def AttachVf(cnx_host, cnx_vm, vf, vlan):
     print("Attaching " + vf + " to " + cnx_vm[0] + " \n")
-    GenerateXmlVf(cnx_host, vf)
+    GenerateXmlVf(cnx_host, vf, vlan)
     ssh = SSHConnect(cnx_host)
     output = RunCommand(ssh, "virsh attach-device " + cnx_vm[0] + " HostdevInter.xml --config ")
 
@@ -1028,6 +1028,9 @@ def GenerateXmlVf(cnx_host, vf):
     RunCommand(ssh, "echo '   <source>' >> HostdevInter.xml")
     RunCommand(ssh, "echo '       <address type=\"pci\" domain=\"0x" + SplitedPCI[0] + "\" bus=\"0x" + SplitedPCI[1] + "\" slot=\"0x" + SplitedPCI[2] + "\" function=\"0x"+SplitedPCI[3]+"\"/>' >> HostdevInter.xml")
     RunCommand(ssh, "echo '   </source>' >> HostdevInter.xml")
+    RunCommand(ssh, "echo '   <vlan>' >> HostdevInter.xml ")
+    RunCommand(ssh, "echo '       <tag id=\"{}\"/>' >> HostdevInter.xml".format(vlan))
+    RunCommand(ssh, "echo '   </vlan>' >> HostdevInter.xml")
     RunCommand(ssh, "echo ' </interface> '>> HostdevInter.xml ")
     ssh.close()
 
@@ -1316,9 +1319,8 @@ def ConfigOVS(cnx, bridge, ports, OvsCpu=["0","3"],  DpdkMem="2048,0", DpdkCpu=[
 def Vfsconfig(): 
     for vf in MyVfs:
         VM_cnx = getVmCnx(vf[3])
-        setVfVlan(Server_cnx, vf[0], vf[1])
         Setspoofchk(Server_cnx, vf[0], vf[2])
-        AttachVf(Server_cnx, VM_cnx, vf[0])
+        AttachVf(Server_cnx, VM_cnx, vf[0], vf[1])
     
     for vm in usedVms:
         VM_cnx = getVmCnx(vm[0])
